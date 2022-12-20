@@ -1,0 +1,18 @@
+﻿<Window x:Class="Practice.Windows.WindowDigitalCurator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practice.Windows"
+        mc:Ignorable="d"
+        Height="360" Width="350" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Background="#FF0F4E7A" Margin="0,10,0,0" TextWrapping="Wrap" Text="Консультант в области цифровой грамотности населения (цифровой куратор)" VerticalAlignment="Top" Width="330" FontWeight="Bold" TextAlignment="Center" Foreground="#FFFFFCFC" FontSize="14" Height="48"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FF0F4E7A" Margin="0,77,0,0" TextWrapping="Wrap" Text="В нашей программе" VerticalAlignment="Top" Width="148" FontWeight="Bold" TextAlignment="Center" Foreground="#FFFFFCFC" Height="21" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FFFFFCFC" Margin="0,115,0,0" TextWrapping="Wrap" Text="Организация и функционирование компьютерной системы" VerticalAlignment="Top" Width="228" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FFFFFCFC" Margin="0,158,0,0" TextWrapping="Wrap" Text="Информационная безопасность" VerticalAlignment="Top" Width="228" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FFFFFCFC" TextWrapping="Wrap" Text="Офисные программы" VerticalAlignment="Top" Width="228" FontWeight="Bold" TextAlignment="Center" Foreground="Black" Margin="0,194,0,0"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FFFFFCFC" Margin="0,225,0,0" TextWrapping="Wrap" Text="Цифровые государственные услуги" VerticalAlignment="Top" Width="186" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FFFFFCFC" Margin="0,272,0,0" TextWrapping="Wrap" Text="Методы и технологии проведения консультаций" VerticalAlignment="Top" Width="228" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+    </Grid>
+</Window>

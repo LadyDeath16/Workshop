@@ -1,0 +1,19 @@
+﻿<Window x:Class="Practice.Windows.WindowWebDesign"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practice.Windows"
+        mc:Ignorable="d"
+        Height="360" Width="350" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Background="#FF0F4E7A" Margin="0,10,0,0" TextWrapping="Wrap" Text="Web-дизайн" VerticalAlignment="Top" Width="330" FontWeight="Bold" TextAlignment="Center" Foreground="#FFFFFCFC" FontSize="14" Height="22"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FF0F4E7A" Margin="0,52,0,0" TextWrapping="Wrap" Text="В нашей программе" VerticalAlignment="Top" Width="148" FontWeight="Bold" TextAlignment="Center" Foreground="#FFFFFCFC" Height="21" FontSize="14" RenderTransformOrigin="0.516,-0.345"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FFFFFCFC" Margin="0,92,0,0" TextWrapping="Wrap" Text="Как, для чего и на чем создавать сайты" VerticalAlignment="Top" Width="228" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FFFFFCFC" Margin="0,139,0,0" TextWrapping="Wrap" Text="Создание дизайн-макета сайта" VerticalAlignment="Top" Width="228" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FFFFFCFC" TextWrapping="Wrap" Text="Основы языков HTML и CSS" VerticalAlignment="Top" Width="228" FontWeight="Bold" TextAlignment="Center" Foreground="Black" Margin="0,172,0,0"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FFFFFCFC" Margin="0,205,0,0" TextWrapping="Wrap" Text="Позиционирование элементов" VerticalAlignment="Top" Width="186" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FFFFFCFC" Margin="0,240,0,0" TextWrapping="Wrap" Text="Интерактивность веб-страниц при помощи языка JavaScript" VerticalAlignment="Top" Width="228" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Left" Background="#FFFFFCFC" Margin="72,292,0,0" TextWrapping="Wrap" Text="Формирование блочной модели" VerticalAlignment="Top" Width="228" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+    </Grid>
+</Window>

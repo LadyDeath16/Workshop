@@ -1,0 +1,18 @@
+﻿<Page x:Class="Practice.pages.PageCourses"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Practice.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1080"
+      Title="PageCourses">
+    <Grid Background="#ABCDEF">
+        <Grid>
+            <Button x:Name="btnProfessionalEducation" Content="Программы профессионального образования" Margin="125,119,125,299" FontSize="16" FontWeight="Bold" Width="540" Background="#FF2A8AD6" BorderBrush="#FF2A8AD6" Click="btnProfessionalEducation_Click"/>
+            <Button x:Name="btnAdditionalEducation" Content="Программы дополнительного профессионального образования" Margin="0,-22,0,22" FontSize="16" FontWeight="Bold" Width="540" Background="#FF2A8AD6" BorderBrush="#FF2A8AD6" Click="btnAdditionalEducation_Click"/>
+            <Button x:Name="btnAdvancedTraining" Content="Программы повышения квалификации и переподготовки" Margin="125,253,125,165" FontSize="16" FontWeight="Bold" Width="540" Background="#FF2A8AD6" BorderBrush="#FF2A8AD6" Click="btnAdvancedTraining_Click"/>
+            <Button x:Name="btnAdditionalPrograms" Content="Дополнительные образовательные программы" Margin="130,323,130,95" FontSize="16" FontWeight="Bold" Width="540" Background="#FF2A8AD6" BorderBrush="#FF2A8AD6" Click="btnAdditionalPrograms_Click"/>
+        </Grid>
+    </Grid>
+</Page>

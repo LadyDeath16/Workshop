@@ -1,0 +1,18 @@
+﻿<Window x:Class="Practice.Windows.WindowComputer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practice.Windows"
+        mc:Ignorable="d"
+        Height="350" Width="350" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Background="#FF0F4E7A" Margin="0,10,0,0" TextWrapping="Wrap" Text="Оператор электронно-вычислительных и вычислительных машин" VerticalAlignment="Top" Width="300" FontWeight="Bold" TextAlignment="Center" Foreground="#FFFFFCFC" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FF0F4E7A" Margin="0,60,0,0" TextWrapping="Wrap" Text="На наших курсах" VerticalAlignment="Top" Width="148" FontWeight="Bold" TextAlignment="Center" Foreground="#FFFFFCFC" FontSize="14" Height="20"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FFFFFCFC" Margin="0,93,0,0" TextWrapping="Wrap" Text="Обсудим устройство компьютера и его характеристики" VerticalAlignment="Top" Width="228" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FFFFFCFC" Margin="0,135,0,0" TextWrapping="Wrap" Text="Освоим программы Word, Excel, Power Point " VerticalAlignment="Top" Width="148" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FFFFFCFC" Margin="0,179,0,0" TextWrapping="Wrap" Text="Научим создавать рекламную продукцию в программе MS Publiser" VerticalAlignment="Top" Width="228" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FFFFFCFC" Margin="0,224,0,0" TextWrapping="Wrap" Text="Овладеем навыками работы с Adobe Photoshop и Illustrator" VerticalAlignment="Top" Width="186" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+        <TextBlock HorizontalAlignment="Center" Background="#FFFFFCFC" Margin="0,269,0,0" TextWrapping="Wrap" Text="Научим обрабатывать звуковые и видеофайлы" VerticalAlignment="Top" Width="148" FontWeight="Bold" TextAlignment="Center" Foreground="Black"/>
+    </Grid>
+</Window>

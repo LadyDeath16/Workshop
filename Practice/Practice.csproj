@@ -1,0 +1,60 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="courses.png" />
+    <None Remove="info.png" />
+    <None Remove="pages\location.png" />
+    <None Remove="pages\phone.png" />
+    <None Remove="pages\photo1.jpg" />
+    <None Remove="pages\photo10.jpg" />
+    <None Remove="pages\photo11.jpg" />
+    <None Remove="pages\photo12.jpg" />
+    <None Remove="pages\photo13.jpg" />
+    <None Remove="pages\photo2.jpg" />
+    <None Remove="pages\photo3.jpg" />
+    <None Remove="pages\photo4.jpg" />
+    <None Remove="pages\photo5.jpg" />
+    <None Remove="pages\photo7.jpg" />
+    <None Remove="pages\photo8.jpg" />
+    <None Remove="pages\photo9.jpg" />
+    <None Remove="pages\smaptphone.png" />
+    <None Remove="Windows\photo6.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes" Version="4.7.0-ci390" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="courses.png" />
+    <Resource Include="info.png" />
+    <Resource Include="pages\location.png" />
+    <Resource Include="pages\phone.png" />
+    <Resource Include="pages\photo1.jpg" />
+    <Resource Include="pages\photo10.jpg" />
+    <Resource Include="pages\photo11.jpg" />
+    <Resource Include="pages\photo12.jpg" />
+    <Resource Include="pages\photo13.jpg" />
+    <Resource Include="pages\photo2.jpg" />
+    <Resource Include="pages\photo3.jpg" />
+    <Resource Include="pages\photo4.jpg" />
+    <Resource Include="pages\photo5.jpg" />
+    <Resource Include="pages\photo7.jpg" />
+    <Resource Include="pages\photo8.jpg" />
+    <Resource Include="pages\photo9.jpg" />
+    <Resource Include="pages\smaptphone.png" />
+    <Resource Include="Windows\photo6.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="photo\" />
+  </ItemGroup>
+
+</Project>
